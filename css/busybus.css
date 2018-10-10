@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+:root, *{
+    font-family: tahoma;
+    font-size: 12px;
+}
+body{
+  background: white;
+}
+
+.app{
+    background: #eee;
+    width: 375px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    overflow: hidden
+}
+
+.route{
+  display: flex;
+  color: grey;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.destination{
+margin-bottom: .5rem;
+}
+
+.bus-number{
+
+}
+
+.frequency{
+    margin-bottom: .5rem;
+}
+
+.time{
+
+}
+
+.destination-container{
+  flex-grow: 1;
+}
+
+.container{
+  display: flex;
+  background:white;
+  padding: .5rem;
+  box-shadow: 0px 2px 1px 1px #ccc;
+  margin-bottom: .5rem;
+  align-items: center;
+}
+
+.column-2{
+    width: 5rem;
+}
+
+.column-3{
+  display: flex;
+  align-items: center;
+  margin-left: .5rem;
+}
+
+.bus-routes{
+    height: 362px;
+    overflow: scroll;
+}
