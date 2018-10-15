@@ -75,3 +75,104 @@ margin-bottom: .5rem;
 .route{
     margin-top: 10px;
 }
+
+.status-bar{
+    background-color: #66c900;
+}
+
+.status-bar img{
+    max-width: 100%;
+}
+
+.search-bar-only{
+    background: #66c900;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.search-icons img{
+    height: 1.5rem;
+}
+
+.search-icons{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}
+
+.search-input{
+    background: rgba(255, 255, 255, 0.30);
+    border: 0;
+    border-radius: 3px;
+    padding: 0 0.5rem;
+    height: 2rem;
+}
+
+.search-input::placeholder{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.search-bar-stop{
+    font-size: 1.17rem;
+    color: white;
+    background-color: #66c900;
+    margin-bottom: .5rem;
+}
+
+.search-bar-column{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    flex-grow: 1;
+}
+
+.search-dots{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.search-bus-icon{
+    height: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.search-bus-routes-line{
+    display: flex;
+    background-color: #66c900;
+    align-items: center;
+
+}
+
+.search-bus-routes{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 14px;
+    margin: 0.5rem;
+}
+
+.departure-bar{
+    display: flex;
+    background-color: green;
+    align-items: center;
+}
+
+.departure-bar-time{
+    color: white;
+    margin: 0.5rem;
+    letter-spacing: 1px;
+    flex-grow: 1;
+}
+
+.clock{
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+.gear{
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
