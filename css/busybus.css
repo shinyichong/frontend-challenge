@@ -17,7 +17,7 @@ body{
     width: 375px;
     height: 667px;
     margin: 0 auto;
-    border: 1px solid #999;
+    border: 3px solid #999;
     overflow: hidden
 }
 
@@ -38,10 +38,6 @@ margin-bottom: .5rem;
 
 .frequency{
     margin-bottom: .5rem;
-}
-
-.time{
-
 }
 
 .destination-container{
