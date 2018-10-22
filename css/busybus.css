@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 :root, *{
-    font-family: tahoma;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 body{
@@ -18,7 +18,8 @@ body{
     height: 667px;
     margin: 0 auto;
     border: 3px solid #999;
-    overflow: hidden
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .route{
@@ -30,14 +31,17 @@ body{
 
 .destination{
 margin-bottom: .5rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 .bus-number{
-
+font-family: 'Montserrat', sans-serif;
+color: darkgrey;
 }
 
 .frequency{
     margin-bottom: .5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .destination-container{
@@ -70,6 +74,7 @@ margin-bottom: .5rem;
 
 .route{
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .status-bar{
@@ -163,12 +168,35 @@ margin-bottom: .5rem;
     flex-grow: 1;
 }
 
-.clock{
+.fa-clock{
     height: 1.5rem;
+    margin: 0.5rem;
+    margin-top: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-cog{
+    color: white;
+    font-size: 20px;
+}
+
+.fa-map-pin{
+    color: white;
+    font-size: 20px;
     margin: 0.5rem;
 }
 
-.gear{
-    height: 1.5rem;
-    margin-right: 0.5rem;
+.fa-arrow-left{
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px 5px 0px;
+}
+
+.time{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.not-applicable{
+    font-family: 'Montserrat', sans-serif;
 }
